@@ -3,7 +3,7 @@ import Image from '../assets/Rectangle 72.svg'
 import ArrowIcon from '../assets/Vector (4).svg'
 const OneVision = () => {
   return (
-    <section className="relative py-24 bg-[#00264D] overflow-hidden" id="the-institute">
+    <section className="relative py-24 bg-gradient-to-b from-[#00264D] to-[#0A0A0A] overflow-hidden" id="the-institute">
       {/* Background Gradients */}
       <div className="absolute top-0 right-0 w-1/2 h-full bg-[#00264D] blur-[120px] pointer-events-none" />
 
@@ -30,7 +30,10 @@ const OneVision = () => {
         </div>
 
         {/* Main Grid Content */}
-        <div className="grid grid-cols-1 lg:grid-cols-7 gap-6">
+        <div className="grid grid-cols-1 lg:grid-cols-7 gap-6 relative">
+
+          {/* LUCA Green Blur Effect */}
+          <div className="absolute top-0 left-0 w-2/3 h-full bg-[#008000] opacity-30 blur-[450px] pointer-events-none -z-10" />
 
           {/* LUCA Card (Left - Spans 4 cols) */}
           <div className="lg:col-span-4 relative group overflow-hidden rounded-2xl border border-[#0080FF]/32 bg-[#0A0A0A]/64 hover:border-blue-500/50 transition-all duration-300">
