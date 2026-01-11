@@ -3,9 +3,7 @@ import Image from '../assets/Rectangle 72.svg'
 import ArrowIcon from '../assets/Vector (4).svg'
 const OneVision = () => {
   return (
-    <section className="relative py-24 bg-gradient-to-b from-[#00264D] to-[#0A0A0A] overflow-hidden" id="the-institute">
-      {/* Background Gradients */}
-      <div className="absolute top-0 right-0 w-1/2 h-full bg-[#00264D] blur-[120px] pointer-events-none" />
+    <section className="relative py-24 overflow-hidden" id="the-institute">
 
       <div className="relative z-10 max-w-[1200px] mx-auto px-6">
         {/* Header Section */}
