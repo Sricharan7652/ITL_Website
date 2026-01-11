@@ -46,9 +46,9 @@ const MeetFounder = () => {
           </div>
 
           {/* Bottom-Right Quadrant - CTA */}
-          <div className="bg-[#0A2A1B] bg-gradient-to-br from-[#0A2A1B] to-[#041F12] p-12 lg:p-20 relative min-h-[350px] flex flex-col justify-center">
+          <div className="bg-[#0A2A1B] bg-gradient-to-br from-[#0A2A1B] to-[#041F12] p-12 lg:p-20 relative min-h-[350px] flex flex-col justify-start">
             <a href="#meet-leslie" className="group inline-flex items-center gap-4 cursor-pointer">
-              <span className="text-white font-serif text-[42px] leading-tight group-hover:underline">
+              <span className="text-white font-serif text-[42px] leading-tight">
                 Meet Leslie
               </span>
               <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-white transform group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform">
@@ -61,24 +61,16 @@ const MeetFounder = () => {
 
         {/* Bottom Pagination Bar */}
         <div className="w-full bg-[#0A2A1B] bg-gradient-to-r from-[#0A2A1B] to-[#00264D] border-t border-white/10 py-8 px-12 lg:px-0">
-          <div className="flex items-center justify-between gap-3 max-w-[1080px] mx-auto text-white">
-            <div className="flex items-center gap-3 flex-1">
+          <div className="flex items-center justify-center gap-8 max-w-[1080px] mx-auto text-white">
+            <div className="flex items-center gap-4">
               <span className="font-ibm-sans font-medium text-[24px] leading-none text-white">01</span>
-              {/* Custom Dashed Line: 4px dash, 4px gap, 4px height */}
-              <div className="h-[4px] w-full" style={{
-                backgroundImage: 'linear-gradient(to right, rgba(255,255,255,0.32) 50%, transparent 50%)',
-                backgroundSize: '8px 100%',
-                backgroundRepeat: 'repeat-x'
-              }}></div>
+              {/* Double Dotted Line */}
+              <div className="h-[6px] w-24 md:w-32 border-t-2 border-b-2 border-dotted border-white/30"></div>
             </div>
-            <div className="flex items-center gap-3 flex-1">
+            <div className="flex items-center gap-4">
               <span className="font-ibm-sans font-medium text-[24px] leading-none text-white/50">02</span>
-              {/* Custom Dashed Line - Lower Opacity */}
-              <div className="h-[4px] w-full opacity-30" style={{
-                backgroundImage: 'linear-gradient(to right, rgba(255,255,255,0.32) 50%, transparent 50%)',
-                backgroundSize: '8px 100%',
-                backgroundRepeat: 'repeat-x'
-              }}></div>
+              {/* Double Dotted Line - Lower Opacity */}
+              <div className="h-[6px] w-24 md:w-32 border-t-2 border-b-2 border-dotted border-white/10"></div>
             </div>
             <div className="flex items-center gap-3 shrink-0">
               <span className="font-ibm-sans font-medium text-[24px] leading-none text-white/60">03</span>
