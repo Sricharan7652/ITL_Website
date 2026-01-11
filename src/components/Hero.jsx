@@ -15,7 +15,7 @@ const Hero = () => {
 				}}
 			></div>
 
-			<div className="relative z-10 w-full max-w-[1080px] mx-auto px-4 sm:px-0 flex flex-col justify-center h-full pt-12">
+			<div className="relative z-10 w-full max-w-[1080px] mx-auto px-4 sm:px-0 flex flex-col justify-center h-full pt-6">
 				{/* Tagline */}
 				<div className="mb-6 flex items-center">
 					<span className="inline-block w-2.5 h-2.5 bg-white mr-3"></span>
@@ -34,7 +34,7 @@ const Hero = () => {
 				</div>
 
 				{/* Description Paragraph - Aligned Right */}
-				<div className="w-full flex justify-end mt-18 md:mt-24 pb-48">
+				<div className="w-full flex justify-end mt-12 md:mt-24 pb-48">
 					<div className="max-w-[480px]">
 						<p className="text-white text-xl font-normal leading-relaxed text-right">
 							Where purpose meets people. Where organizations transform through
