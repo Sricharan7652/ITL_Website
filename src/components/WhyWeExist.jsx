@@ -16,9 +16,9 @@ const WhyWeExist = () => {
             </span>
           </div>
 
-          <h2 className="text-white mb-8">
-            <span className="block font-serif italic font-normal text-[54px] leading-[58px]">This is</span>
-            <span className="block font-serif font-normal text-[54px] leading-[58px] -mt-2">Why We Exist</span>
+          <h2 className="text-center mb-8">
+            <span className="font-serif italic font-normal text-[54px] leading-[58px] text-white/50 mr-4">This is</span>
+            <span className="font-serif font-normal text-[54px] leading-[58px] text-white">Why We Exist</span>
           </h2>
 
           <p className="text-white/42 font-ibm-sans font-normal text-[20px] leading-tight max-w-[720px] text-center">
