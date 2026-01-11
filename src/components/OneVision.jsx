@@ -39,7 +39,7 @@ const OneVision = () => {
           <div className="lg:col-span-4 relative group overflow-hidden rounded-2xl border border-[#0080FF]/32 bg-[#0A0A0A]/64 hover:border-blue-500/50 transition-all duration-300">
             {/* Badge */}
             <div className="absolute top-0 left-0 z-20">
-              <div className="bg-[#0080FF]/42 backdrop-blur-[20px] text-white text-[12px] font-medium tracking-widest uppercase py-4 px-5 rounded-br-[12px] flex items-center gap-2">
+              <div className="bg-[#0080FF]/42 backdrop-blur-[20px] text-white text-[12px] font-medium tracking-widest uppercase h-[48px] px-5 py-4 rounded-br-[12px] flex items-center gap-2">
                 <span className="w-[6px] h-[6px] bg-white rounded-[1px]" />
                 OPEN TO ALL
               </div>
