@@ -53,7 +53,8 @@ const WhyWeExist = () => {
                 </div>
               </div>
               {/* Vertical Connection Line */}
-              <div className="absolute left-[70px] bottom-0 top-[60%] w-[1px] bg-gradient-to-b from-transparent via-white/50 to-white/80"></div>
+              {/* Vertical Connection Line */}
+              <div className="absolute left-[170px] bottom-0 top-[60%] w-[1px] bg-gradient-to-b from-transparent via-white/50 to-white/80"></div>
             </div>
 
             {/* Item 2 - Top Aligned */}
@@ -68,7 +69,8 @@ const WhyWeExist = () => {
                 </div>
               </div>
               {/* Vertical Connection Line */}
-              <div className="absolute left-[110px] bottom-0 top-[180px] w-[1px] bg-gradient-to-b from-transparent via-white/50 to-white/80"></div>
+              {/* Vertical Connection Line */}
+              <div className="absolute left-[200px] bottom-0 top-[180px] w-[1px] bg-gradient-to-b from-transparent via-white/50 to-white/80"></div>
             </div>
 
             {/* Item 3 - Bottom Aligned */}
@@ -83,7 +85,8 @@ const WhyWeExist = () => {
                 </div>
               </div>
               {/* Vertical Connection Line */}
-              <div className="absolute left-[90px] bottom-0 top-[60%] w-[1px] bg-gradient-to-b from-transparent via-white/50 to-white/80"></div>
+              {/* Vertical Connection Line */}
+              <div className="absolute left-[190px] bottom-0 top-[60%] w-[1px] bg-gradient-to-b from-transparent via-white/50 to-white/80"></div>
             </div>
 
           </div>

@@ -1,5 +1,6 @@
 import React from 'react'
-
+import founderImage from '../assets/Rectangle 70.svg';
+import ArrowIcon from '../assets/Vector (4).svg';
 const MeetFounder = () => {
   return (
     <section className="bg-dark-base relative">
@@ -21,16 +22,7 @@ const MeetFounder = () => {
 
           {/* Top-Right Quadrant - Image */}
           <div className="relative min-h-[400px] border-b border-white/5 bg-gray-800">
-            {/* Dummy Image Placeholder */}
-            <div className="absolute inset-0 bg-gray-700 flex items-center justify-center">
-              <div className="text-center">
-                <svg className="w-16 h-16 text-gray-500 mx-auto mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                </svg>
-                <span className="text-gray-400 font-sans text-sm">Founder Image Placeholder</span>
-              </div>
-            </div>
-            {/* Real image would go here: <img src="..." className="absolute inset-0 w-full h-full object-cover" /> */}
+            <img src={founderImage} alt="Leslie Martinich" className="absolute inset-0 w-full h-full object-cover" />
           </div>
 
           {/* Bottom-Left Quadrant - Bio Text */}
@@ -51,9 +43,7 @@ const MeetFounder = () => {
               <span className="text-white font-serif text-[42px] leading-tight">
                 Meet Leslie
               </span>
-              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-white transform group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform">
-                <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-              </svg>
+              <img src={ArrowIcon} alt="Arrow" className="w-7 h-7 transform group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
             </a>
           </div>
 
@@ -65,12 +55,12 @@ const MeetFounder = () => {
             <div className="flex items-center gap-4">
               <span className="font-ibm-sans font-medium text-[24px] leading-none text-white">01</span>
               {/* Double Dotted Line */}
-              <div className="h-[6px] w-24 md:w-32 border-t-2 border-b-2 border-dotted border-white/30"></div>
+              <div className="h-[6px] w-48 md:w-64 border-t-2 border-b-2 border-dotted border-white/30"></div>
             </div>
             <div className="flex items-center gap-4">
               <span className="font-ibm-sans font-medium text-[24px] leading-none text-white/50">02</span>
               {/* Double Dotted Line - Lower Opacity */}
-              <div className="h-[6px] w-24 md:w-32 border-t-2 border-b-2 border-dotted border-white/10"></div>
+              <div className="h-[6px] w-48 md:w-64 border-t-2 border-b-2 border-dotted border-white/10"></div>
             </div>
             <div className="flex items-center gap-3 shrink-0">
               <span className="font-ibm-sans font-medium text-[24px] leading-none text-white/60">03</span>
