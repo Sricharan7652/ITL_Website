@@ -3,12 +3,12 @@ import founderImage from '../assets/Rectangle 70.svg';
 import ArrowIcon from '../assets/Vector (4).svg';
 const MeetFounder = () => {
   return (
-    <section className="bg-dark-base relative">
+    <section className="relative">
       <div className="max-w-[1280px] mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2">
 
           {/* Top-Left Quadrant - Name & Label */}
-          <div className="bg-gradient-to-b from-[#050505] to-[#0A1A10] p-12 lg:p-20 flex flex-col justify-center border-b border-r border-white/5 relative min-h-[400px]">
+          <div className="p-12 lg:p-20 flex flex-col justify-center border-b border-r border-white/5 relative min-h-[400px]">
             <div className="mb-6 flex items-center">
               <span className="inline-block w-2 h-2 bg-white mr-3"></span>
               <span className="text-white text-xs font-semibold uppercase tracking-widest">
@@ -21,13 +21,13 @@ const MeetFounder = () => {
           </div>
 
           {/* Top-Right Quadrant - Image */}
-          <div className="relative min-h-[400px] border-b border-white/5 bg-gradient-to-b from-[#1a1a1a] to-[#0A1A10]">
+          <div className="relative min-h-[400px] border-b border-white/5">
             <img src={founderImage} alt="Leslie Martinich" className="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-90" />
             <img src={founderImage} alt="Leslie Martinich" className="absolute inset-0 w-full h-full object-cover" />
           </div>
 
           {/* Bottom-Left Quadrant - Bio Text */}
-          <div className="bg-gradient-to-br from-[#0A1A10] to-[#05150E] p-12 lg:p-20 border-r border-white/5 relative min-h-[350px] flex flex-col justify-center">
+          <div className="p-12 lg:p-20 border-r border-white/5 relative min-h-[350px] flex flex-col justify-center">
             <div className="max-w-[441px]">
               <p className="text-white/90 text-[20px] font-sans font-normal leading-normal mb-8">
                 Leslie Martinich is a leadership expert with 20+ years of experience who founded the Institute of Trusted Leadership to address the global crisis of trust in organizations.
@@ -39,7 +39,7 @@ const MeetFounder = () => {
           </div>
 
           {/* Bottom-Right Quadrant - CTA */}
-          <div className="bg-gradient-to-br from-[#0A1A10] to-[#05150E] p-12 lg:p-20 relative min-h-[350px] flex flex-col justify-start">
+          <div className="p-12 lg:p-20 relative min-h-[350px] flex flex-col justify-start">
             <a href="#meet-leslie" className="group inline-flex items-center gap-4 cursor-pointer">
               <span className="text-white font-serif text-[42px] leading-tight">
                 Meet Leslie
@@ -51,7 +51,7 @@ const MeetFounder = () => {
         </div>
 
         {/* Bottom Pagination Bar */}
-        <div className="w-full bg-[#0A2A1B] bg-gradient-to-r from-[#0A2A1B] to-[#00264D] border-t border-white/10 py-8 px-12 lg:px-0">
+        <div className="w-full border-t border-white/10 py-8 px-12 lg:px-0">
           <div className="flex items-center justify-center gap-8 max-w-[1080px] mx-auto text-white">
             <div className="flex items-center gap-4">
               <span className="font-ibm-sans font-medium text-[24px] leading-none text-white">01</span>

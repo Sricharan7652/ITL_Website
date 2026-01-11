@@ -6,7 +6,7 @@ import StarIcon from '../assets/Star 1.svg';
 
 const OurNorthStar = () => {
   return (
-    <section className="relative overflow-hidden py-16 md:py-32 bg-[#0A0A0A]">
+    <section className="relative overflow-hidden py-16 md:py-32">
       {/* Blurred green overlay effect - Continued from Hero */}
       <div
         className="absolute inset-0 pointer-events-none opacity-60"

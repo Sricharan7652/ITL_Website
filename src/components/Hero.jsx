@@ -3,7 +3,7 @@ import ScrollIcon from '../assets/Vector.svg';
 
 const Hero = () => {
 	return (
-		<section className="relative w-full min-h-screen flex flex-col justify-center overflow-hidden bg-[#0A0A0A] pt-24 pb-12">
+		<section className="relative w-full min-h-screen flex flex-col justify-center overflow-hidden pt-24 pb-12">
 			{/* Blurred green overlay effect matching Figma */}
 			<div
 				className="absolute inset-0 pointer-events-none opacity-60"

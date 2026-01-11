@@ -2,9 +2,7 @@ import React from 'react'
 
 const OurMethodology = () => {
   return (
-    <section className="relative py-24 bg-gradient-to-b from-[#0A0A0A] to-[#00264D] overflow-hidden">
-      {/* Background Gradients */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full bg-gradient-to-b from-[#00264D]/40 to-[#00264D]/80 pointer-events-none" />
+    <section className="relative py-24 overflow-hidden">
 
       <div className="relative z-10 max-w-[1080px] mx-auto px-6">
         {/* Header Section */}

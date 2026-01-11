@@ -7,6 +7,5 @@
 @layer base {
   body {
     @apply text-white font-sans antialiased;
-    background-color: #0A0A0A;
   }
 }
