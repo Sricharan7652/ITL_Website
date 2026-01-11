@@ -30,7 +30,7 @@ const OurNorthStar = () => {
               <img
                 src={StarIcon}
                 alt="North Star"
-                className="w-48 h-48 md:w-64 md:h-64 drop-shadow-[0_0_150px_rgba(255,255,255,0.64)_0_0_42px_rgba(255,255,255,0.16)]"
+                className="w-auto h-auto md:w-64 md:h-64 drop-shadow-[0_0_150px_rgba(255,255,255,0.64)_0_0_42px_rgba(255,255,255,0.16)]"
               />
             </div>
 

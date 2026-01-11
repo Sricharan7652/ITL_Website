@@ -30,15 +30,27 @@ const WhyWeExist = () => {
         <div className="relative">
           {/* Horizontal Dotted Line at Bottom */}
           {/* Horizontal Dashed Line at Bottom */}
-          <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[1280px] h-[4px]"
+          {/* Horizontal Double Dotted Line at Bottom */}
+          <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[1280px] h-[7px] flex flex-col justify-between"
             style={{
-              backgroundImage: 'linear-gradient(to right, rgba(255,255,255,0.5) 50%, transparent 50%)',
-              backgroundSize: '8px 100%',
+              opacity: 0.5
+            }}
+          >
+            <div className="w-full h-[2px]" style={{
+              backgroundImage: 'linear-gradient(to right, rgba(255,255,255,0.8) 50%, transparent 50%)',
+              backgroundSize: '4px 100%',
               backgroundRepeat: 'repeat-x',
               maskImage: 'linear-gradient(to right, transparent, black 20%, black 80%, transparent)',
               WebkitMaskImage: 'linear-gradient(to right, transparent, black 20%, black 80%, transparent)'
-            }}
-          />
+            }} />
+            <div className="w-full h-[2px]" style={{
+              backgroundImage: 'linear-gradient(to right, rgba(255,255,255,0.8) 50%, transparent 50%)',
+              backgroundSize: '4px 100%',
+              backgroundRepeat: 'repeat-x',
+              maskImage: 'linear-gradient(to right, transparent, black 20%, black 80%, transparent)',
+              WebkitMaskImage: 'linear-gradient(to right, transparent, black 20%, black 80%, transparent)'
+            }} />
+          </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 relative min-h-[460px]">
             {/* Item 1 - Bottom Aligned */}
@@ -54,7 +66,7 @@ const WhyWeExist = () => {
               </div>
               {/* Vertical Connection Line */}
               {/* Vertical Connection Line */}
-              <div className="absolute left-[170px] bottom-0 top-[60%] w-[1px] bg-gradient-to-b from-transparent via-white/50 to-white/80"></div>
+              <div className="absolute left-[170px] bottom-0 h-24 w-[1px] bg-gradient-to-b from-transparent via-white/50 to-white/80"></div>
             </div>
 
             {/* Item 2 - Top Aligned */}
@@ -86,7 +98,7 @@ const WhyWeExist = () => {
               </div>
               {/* Vertical Connection Line */}
               {/* Vertical Connection Line */}
-              <div className="absolute left-[190px] bottom-0 top-[60%] w-[1px] bg-gradient-to-b from-transparent via-white/50 to-white/80"></div>
+              <div className="absolute left-[190px] bottom-0 h-24 w-[1px] bg-gradient-to-b from-transparent via-white/50 to-white/80"></div>
             </div>
 
           </div>
