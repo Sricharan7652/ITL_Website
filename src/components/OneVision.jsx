@@ -43,7 +43,7 @@ const OneVision = () => {
             </div>
 
             {/* Main Content Area */}
-            <div className="pr-8 pl-8 pb-0 pt-24 min-h-[450px] relative bg-gradient-to-b from-white/5 to-transparent">
+            <div className="p-8 pb-0 pt-24 min-h-[450px] relative bg-gradient-to-b from-white/5 to-transparent">
               {/* Image Placeholder that matches design style */}
               <div className="absolute inset-0 flex items-center justify-center p-8 opacity-90">
                 <div className="relative w-full h-full flex items-center justify-center">
@@ -95,7 +95,7 @@ const OneVision = () => {
           ].map((card, i) => (
             <div key={i} className="lg:col-span-1 relative group overflow-hidden rounded-2xl bg-[#0A0A0A]/64 border border-[#0080FF]/32 hover:border-blue-400 transition-all duration-300 flex flex-col">
               {/* Top Label */}
-              <div className="h-[60px] px-4 border-b border-[#0080FF]/32 bg-[#0080FF]/32 flex flex-col justify-center">
+              <div className="py-4 px-4 border-b border-[#0080FF]/32 bg-[#0080FF]/32 flex flex-col justify-center min-h-[64px]">
                 <div className="flex items-center gap-2 mb-2">
                   <span className="w-[6px] h-[6px] bg-white rounded-[1px]" />
                 </div>
