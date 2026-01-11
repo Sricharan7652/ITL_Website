@@ -34,7 +34,7 @@ const Hero = () => {
 				</div>
 
 				{/* Description Paragraph - Aligned Right */}
-				<div className="w-full flex justify-end mt-12 md:mt-24 pb-48">
+				<div className="w-full flex justify-end mt-16 md:mt-22 pb-48">
 					<div className="max-w-[480px]">
 						<p className="text-white text-xl font-normal leading-relaxed text-right">
 							Where purpose meets people. Where organizations transform through
