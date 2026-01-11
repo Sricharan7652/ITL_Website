@@ -43,7 +43,7 @@ const OneVision = () => {
             </div>
 
             {/* Main Content Area */}
-            <div className="p-8 pb-0 pt-24 min-h-[450px] relative bg-gradient-to-b from-white/5 to-transparent">
+            <div className="pr-8 pl-8 pb-0 pt-24 min-h-[450px] relative bg-gradient-to-b from-white/5 to-transparent">
               {/* Image Placeholder that matches design style */}
               <div className="absolute inset-0 flex items-center justify-center p-8 opacity-90">
                 <div className="relative w-full h-full flex items-center justify-center">
@@ -55,7 +55,7 @@ const OneVision = () => {
             </div>
 
             {/* Footer Section */}
-            <div className="p-8 mt-auto">
+            <div className="pr-8 pl-8 mt-auto">
               <div className="flex justify-between items-start">
                 <div>
                   <h4 className="text-white font-serif text-[28px] mb-2">LUCA The Leader</h4>
@@ -104,7 +104,7 @@ const OneVision = () => {
                 </span>
               </div>
 
-              <div className="flex-1 relative flex items-end p-[42px]">
+              <div className="flex-1 relative flex items-end p-4">
                 <div className="w-full h-full flex flex-col-reverse items-start justify-end gap-3 [writing-mode:vertical-rl] rotate-180">
                   <h3 className="text-white font-serif text-[28px] whitespace-nowrap font-medium tracking-tight">
                     {card.title}
