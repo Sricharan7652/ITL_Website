@@ -56,7 +56,7 @@ const OneVision = () => {
             </div>
 
             {/* Footer Section */}
-            <div className="pr-8 pl-8 mt-auto">
+            <div className="pr-8 pl-8 pb-8 mt-auto">
               <div className="flex justify-between items-start">
                 <div>
                   <h4 className="text-white font-serif text-[28px] mb-2">LUCA The Leader</h4>
@@ -94,25 +94,27 @@ const OneVision = () => {
               color: "border-blue-500/20"
             }
           ].map((card, i) => (
-            <div key={i} className="lg:col-span-1 relative group overflow-hidden rounded-2xl bg-[#0A0A0A]/64 border border-[#0080FF]/32 hover:border-blue-400 transition-all duration-300 flex flex-col">
+            <div key={i} className="lg:col-span-1 relative group overflow-hidden rounded-xl bg-[#0A0A0A]/64 border border-[#0080FF]/32 hover:border-blue-400 transition-all duration-300 flex flex-col">
               {/* Top Label */}
-              <div className="py-4 px-4 border-b border-[#0080FF]/32 bg-[#0080FF]/32 flex flex-col justify-center min-h-[64px]">
-                <div className="flex items-center gap-2 mb-2">
+              <div className="py-4 px-5 border-b border-[#0080FF]/32 bg-[#0080FF]/42 flex flex-col justify-start items-start gap-2" style={{ minHeight: '80px', padding: '16px 20px' }}>
+                <div className="flex items-center gap-2">
                   <span className="w-[6px] h-[6px] bg-white rounded-[1px]" />
                 </div>
-                <span className="text-white/60 font-ibm-sans text-[12px] font-medium uppercase leading-normal tracking-normal">
+                <span className="text-white font-ibm-sans text-[12px] font-medium uppercase leading-tight tracking-normal">
                   {card.label}
                 </span>
               </div>
 
-              <div className="flex-1 relative flex items-end p-4">
-                <div className="w-full h-full flex flex-col-reverse items-start justify-end gap-3 [writing-mode:vertical-rl] rotate-180">
-                  <h3 className="text-white font-serif text-[28px] whitespace-nowrap font-medium tracking-tight">
-                    {card.title}
-                  </h3>
-                  <p className="text-white/90 font-serif text-[20px] whitespace-nowrap tracking-wide leading-none">
-                    {card.subtitle}
-                  </p>
+              <div className="flex-1 relative flex items-center justify-center" style={{ padding: '16px 20px' }}>
+                <div className="w-full flex items-center justify-center [writing-mode:vertical-rl] rotate-180">
+                  <div className="flex flex-col items-center gap-2">
+                    <h3 className="text-white font-serif text-[28px] whitespace-nowrap font-medium tracking-tight">
+                      {card.title}
+                    </h3>
+                    <p className="text-white/90 font-serif text-[20px] whitespace-nowrap tracking-wide leading-none">
+                      {card.subtitle}
+                    </p>
+                  </div>
                 </div>
               </div>
 
