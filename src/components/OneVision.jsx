@@ -1,12 +1,13 @@
 import React from 'react'
-
+import Image from '../assets/Rectangle 72.svg'
+import ArrowIcon from '../assets/Vector (4).svg'
 const OneVision = () => {
   return (
-    <section className="relative py-24 bg-dark-base overflow-hidden" id="the-institute">
+    <section className="relative py-24 bg-[#00264D] overflow-hidden" id="the-institute">
       {/* Background Gradients */}
-      <div className="absolute top-0 right-0 w-1/2 h-full bg-blue-900/10 blur-[120px] pointer-events-none" />
+      <div className="absolute top-0 right-0 w-1/2 h-full bg-[#00264D] blur-[120px] pointer-events-none" />
 
-      <div className="relative z-10 max-w-[1080px] mx-auto px-6">
+      <div className="relative z-10 max-w-[1200px] mx-auto px-6">
         {/* Header Section */}
         <div className="text-center mb-20">
           <div className="flex items-center justify-center gap-3 mb-6">
@@ -21,7 +22,7 @@ const OneVision = () => {
             <span className="block">Four Pathways to Impact.</span>
           </h2>
 
-          <div className="max-w-[800px] mx-auto border border-dashed border-blue-500/30 bg-blue-900/10 rounded-lg p-6">
+          <div className="max-w-[800px] mx-auto">
             <p className="text-white/80 font-ibm-sans text-[20px] leading-relaxed">
               The Institute of Trusted Leadership operates through an integrated ecosystem of specialized divisions, each designed to address different aspects of leadership development and organizational transformation.
             </p>
@@ -32,52 +33,29 @@ const OneVision = () => {
         <div className="grid grid-cols-1 lg:grid-cols-7 gap-6">
 
           {/* LUCA Card (Left - Spans 4 cols) */}
-          <div className="lg:col-span-4 relative group overflow-hidden rounded-2xl border border-blue-500/30 bg-[#001124] hover:border-blue-500/50 transition-all duration-300">
+          <div className="lg:col-span-4 relative group overflow-hidden rounded-2xl border border-[#0080FF]/32 bg-[#0A0A0A]/64 hover:border-blue-500/50 transition-all duration-300">
             {/* Badge */}
             <div className="absolute top-0 left-0 z-20">
-              <div className="bg-[#0080FF]/40 backdrop-blur-[20px] text-white text-[12px] font-medium tracking-widest uppercase py-4 px-5 rounded-br-[12px] flex items-center gap-2">
+              <div className="bg-[#0080FF]/42 backdrop-blur-[20px] text-white text-[12px] font-medium tracking-widest uppercase py-4 px-5 rounded-br-[12px] flex items-center gap-2">
                 <span className="w-[6px] h-[6px] bg-white rounded-[1px]" />
                 OPEN TO ALL
               </div>
             </div>
 
             {/* Main Content Area */}
-            <div className="p-8 pb-0 pt-24 min-h-[400px] relative bg-gradient-to-b from-white/5 to-transparent">
+            <div className="p-8 pb-0 pt-24 min-h-[450px] relative bg-gradient-to-b from-white/5 to-transparent">
               {/* Image Placeholder that matches design style */}
               <div className="absolute inset-0 flex items-center justify-center p-8 opacity-90">
-                <div className="relative w-full h-full bg-white/5 rounded-xl border border-dashed border-white/10 flex items-center justify-center">
-                  <span className="text-white/40 font-ibm-sans">Feature Graphic Area</span>
-                  {/* Decorative circle mimicking the visual */}
-                  <div className="absolute right-12 bottom-12 w-24 h-24 rounded-full border-4 border-orange-400/80 opacity-60" />
+                <div className="relative w-full h-full flex items-center justify-center">
+                  <img src={Image} alt="" className="absolute inset-0 w-full h-full object-fill" />
                 </div>
               </div>
 
-              {/* Overwatch Text */}
-              <div className="relative z-10 text-center mt-8">
-                <h3 className="text-3xl md:text-5xl font-bold text-white mb-2">
-                  Ride the <span className="text-orange-500">Wave</span> of
-                </h3>
-                <h3 className="text-3xl md:text-5xl font-bold text-white relative inline-block">
-                  Leadership with <span className="text-blue-400 relative">
-                    Luca.
-                    {/* Ellipse sketch effect */}
-                    <svg className="absolute -inset-2 w-[120%] h-[140%] text-blue-400 pointer-events-none" viewBox="0 0 100 60" fill="none">
-                      <ellipse cx="50" cy="30" rx="45" ry="25" stroke="currentColor" strokeWidth="2" strokeDasharray="5,5" />
-                    </svg>
-                  </span>
-                </h3>
 
-                <div className="flex justify-center mt-8">
-                  <button className="bg-white text-black px-6 py-2 rounded-full font-medium text-sm hover:bg-gray-100 transition-colors flex items-center gap-2">
-                    <span className="w-6 h-6 rounded-full bg-blue-500 flex items-center justify-center text-white">▶</span>
-                    Watch the Series
-                  </button>
-                </div>
-              </div>
             </div>
 
             {/* Footer Section */}
-            <div className="bg-[#00264D] p-8 mt-auto border-t border-blue-500/30">
+            <div className="p-8 mt-auto">
               <div className="flex justify-between items-start">
                 <div>
                   <h4 className="text-white font-serif text-[28px] mb-2">LUCA The Leader</h4>
@@ -88,9 +66,7 @@ const OneVision = () => {
                   </p>
                 </div>
                 <div className="mt-2 text-white/80">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <path d="M7 17L17 7M17 7H7M17 7V17" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
+                  <img src={ArrowIcon} alt="Arrow" className="w-6 h-6" />
                 </div>
               </div>
             </div>
@@ -117,24 +93,23 @@ const OneVision = () => {
               color: "border-blue-500/20"
             }
           ].map((card, i) => (
-            <div key={i} className={`lg:col-span-1 relative group overflow-hidden rounded-2xl bg-[#001124] border ${card.color} hover:border-blue-400 transition-all duration-300 flex flex-col`}>
+            <div key={i} className="lg:col-span-1 relative group overflow-hidden rounded-2xl bg-[#0A0A0A]/64 border border-[#0080FF]/32 hover:border-blue-400 transition-all duration-300 flex flex-col">
               {/* Top Label */}
-              <div className="p-4 border-b border-white/5">
+              <div className="h-[60px] px-4 border-b border-[#0080FF]/32 bg-[#0080FF]/32 flex flex-col justify-center">
                 <div className="flex items-center gap-2 mb-2">
-                  <span className="w-1.5 h-1.5 bg-blue-500 rounded-full" />
+                  <span className="w-[6px] h-[6px] bg-white rounded-[1px]" />
                 </div>
-                <span className="text-white/60 font-ibm-sans text-[12px] font-medium tracking-widest uppercase leading-normal">
+                <span className="text-white/60 font-ibm-sans text-[12px] font-medium uppercase leading-normal tracking-normal">
                   {card.label}
                 </span>
               </div>
 
-              {/* Vertical Text Area */}
-              <div className="flex-1 relative flex items-end p-6 pb-12">
-                <div className="w-full h-full flex flex-col-reverse items-start justify-end gap-2 [writing-mode:vertical-rl] rotate-180">
+              <div className="flex-1 relative flex items-end p-[42px]">
+                <div className="w-full h-full flex flex-col-reverse items-start justify-end gap-3 [writing-mode:vertical-rl] rotate-180">
                   <h3 className="text-white font-serif text-[28px] whitespace-nowrap font-medium tracking-tight">
                     {card.title}
                   </h3>
-                  <p className="text-white/50 font-serif text-[20px] whitespace-nowrap tracking-wide leading-none">
+                  <p className="text-white/90 font-serif text-[20px] whitespace-nowrap tracking-wide leading-none">
                     {card.subtitle}
                   </p>
                 </div>

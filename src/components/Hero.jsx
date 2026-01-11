@@ -3,15 +3,15 @@ import ScrollIcon from '../assets/Vector.svg';
 
 const Hero = () => {
 	return (
-		<section className="relative w-full min-h-screen flex flex-col justify-center overflow-hidden bg-gradient-to-r from-dark-base to-dark-blue pt-24 pb-12">
+		<section className="relative w-full min-h-screen flex flex-col justify-center overflow-hidden bg-[#0A0A0A] pt-24 pb-12">
 			{/* Blurred green overlay effect */}
 			<div
-				className="absolute inset-0 pointer-events-none opacity-30"
+				className="absolute inset-0 pointer-events-none opacity-60"
 				style={{
 					background:
-						'radial-gradient(ellipse at left center, rgba(0, 128, 0, 0.4) 0%, transparent 70%)',
-					filter: 'blur(100px)',
-					transform: 'translateX(-20%)',
+						'radial-gradient(circle at 20% 40%, #008000 0%, transparent 60%)',
+					filter: 'blur(450px)',
+					transform: 'translateZ(0)', // Force hardware acceleration
 				}}
 			></div>
 

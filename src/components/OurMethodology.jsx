@@ -2,9 +2,9 @@ import React from 'react'
 
 const OurMethodology = () => {
   return (
-    <section className="relative py-24 bg-dark-base overflow-hidden">
+    <section className="relative py-24 bg-[#00264D] overflow-hidden">
       {/* Background Gradients */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-[500px] bg-gradient-to-b from-[#00264D]/20 to-transparent pointer-events-none" />
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full bg-gradient-to-b from-[#00264D]/40 to-[#00264D]/80 pointer-events-none" />
 
       <div className="relative z-10 max-w-[1080px] mx-auto px-6">
         {/* Header Section */}
@@ -32,7 +32,7 @@ const OurMethodology = () => {
           {/* Column 1 - Top Aligned */}
           <div className="relative flex flex-col justify-start">
             {/* Background Bar */}
-            <div className="absolute top-0 left-0 w-[150px] h-full bg-gradient-to-b from-black to-transparent opacity-50 border-l border-white/10" />
+            <div className="absolute top-0 left-0 w-[150px] h-full bg-gradient-to-b from-black to-transparent opacity-60 border-l border-white/5" />
 
             <div className="pl-[170px] relative z-10 pt-8">
               <h3 className="text-white font-serif text-[28px] leading-none mb-6">Research & Insights</h3>
@@ -50,7 +50,7 @@ const OurMethodology = () => {
           {/* Column 2 - Middle Aligned */}
           <div className="relative flex flex-col justify-start">
             {/* Background Bar */}
-            <div className="absolute top-[200px] left-0 w-[150px] h-[600px] bg-gradient-to-b from-black to-transparent opacity-50 border-l border-white/10" />
+            <div className="absolute top-[200px] left-0 w-[150px] h-[460px] bg-gradient-to-b from-black to-transparent opacity-60 border-l border-white/5" />
 
             <div className="pl-[170px] relative z-10 pt-[220px]">
               <h3 className="text-white font-serif text-[28px] leading-none mb-6">Training & Development</h3>
@@ -68,7 +68,7 @@ const OurMethodology = () => {
           {/* Column 3 - Bottom Aligned */}
           <div className="relative flex flex-col justify-start">
             {/* Background Bar */}
-            <div className="absolute bottom-0 left-0 w-[150px] h-[400px] bg-gradient-to-b from-black to-transparent opacity-50 border-l border-white/10" />
+            <div className="absolute bottom-0 left-0 w-[150px] h-[460px] bg-gradient-to-b from-black to-transparent opacity-60 border-l border-white/5" />
 
             <div className="pl-[170px] relative z-10 pt-[420px]">
               <h3 className="text-white font-serif text-[28px] leading-none mb-6">Consulting &<br />Implementation</h3>

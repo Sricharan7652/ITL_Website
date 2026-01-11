@@ -2,9 +2,9 @@ import React from 'react'
 
 const WhyWeExist = () => {
   return (
-    <section className="relative py-24 bg-dark-base overflow-hidden">
+    <section className="relative py-24 bg-[#0A0A0A] overflow-hidden">
       {/* Background Gradients */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-[500px] bg-gradient-to-b from-[#00264D]/20 to-transparent pointer-events-none" />
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-[500px] bg-gradient-to-b from-[#008000]/10 to-[#00264D]/20 pointer-events-none" />
 
       <div className="relative z-10 max-w-[1080px] mx-auto px-6">
         {/* Header Section */}

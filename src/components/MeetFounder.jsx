@@ -26,7 +26,7 @@ const MeetFounder = () => {
           </div>
 
           {/* Bottom-Left Quadrant - Bio Text */}
-          <div className="bg-[#0A2A1B] bg-gradient-to-br from-[#0A2A1B] to-[#041F12] p-12 lg:p-20 border-r border-white/5 relative min-h-[350px] flex flex-col justify-center">
+          <div className="bg-[#0A2A1B] bg-gradient-to-br from-[#0A2A1B] to-[#05150E] p-12 lg:p-20 border-r border-white/5 relative min-h-[350px] flex flex-col justify-center">
             <div className="max-w-[441px]">
               <p className="text-white/90 text-[20px] font-sans font-normal leading-normal mb-8">
                 Leslie Martinich is a leadership expert with 20+ years of experience who founded the Institute of Trusted Leadership to address the global crisis of trust in organizations.
@@ -38,7 +38,7 @@ const MeetFounder = () => {
           </div>
 
           {/* Bottom-Right Quadrant - CTA */}
-          <div className="bg-[#0A2A1B] bg-gradient-to-br from-[#0A2A1B] to-[#041F12] p-12 lg:p-20 relative min-h-[350px] flex flex-col justify-start">
+          <div className="bg-[#0A2A1B] bg-gradient-to-br from-[#0A2A1B] to-[#05150E] p-12 lg:p-20 relative min-h-[350px] flex flex-col justify-start">
             <a href="#meet-leslie" className="group inline-flex items-center gap-4 cursor-pointer">
               <span className="text-white font-serif text-[42px] leading-tight">
                 Meet Leslie

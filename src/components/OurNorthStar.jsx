@@ -6,14 +6,14 @@ import StarIcon from '../assets/Star 1.svg';
 
 const OurNorthStar = () => {
   return (
-    <section className="relative overflow-hidden py-16 md:py-32 bg-gradient-to-r from-dark-base to-dark-blue">
-      {/* Blurred green overlay effect */}
+    <section className="relative overflow-hidden py-16 md:py-32 bg-[#0A0A0A]">
+      {/* Blurred green overlay effect - Continued from Hero */}
       <div
-        className="absolute inset-0 pointer-events-none opacity-30"
+        className="absolute inset-0 pointer-events-none opacity-60"
         style={{
-          background: 'radial-gradient(ellipse at left center, rgba(0, 128, 0, 0.4) 0%, transparent 70%)',
-          filter: 'blur(100px)',
-          transform: 'translateX(-20%)'
+          background: 'radial-gradient(circle at 10% 50%, #008000 0%, transparent 60%)',
+          filter: 'blur(400px)',
+          transform: 'translateZ(0)'
         }}
       ></div>
 
