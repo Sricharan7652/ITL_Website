@@ -58,12 +58,12 @@ const MeetFounder = () => {
             <div className="flex items-center gap-4">
               <span className="font-ibm-sans font-medium text-[24px] leading-none text-white">01</span>
               {/* Double Dotted Line */}
-              <div className="h-[6px] w-48 md:w-64 border-t-2 border-b-2 border-dotted border-white/30"></div>
+              <div className="h-[6px] w-64 md:w-96 border-t-2 border-b-2 border-dotted border-white/30"></div>
             </div>
             <div className="flex items-center gap-4">
               <span className="font-ibm-sans font-medium text-[24px] leading-none text-white/50">02</span>
               {/* Double Dotted Line - Lower Opacity */}
-              <div className="h-[6px] w-48 md:w-64 border-t-2 border-b-2 border-dotted border-white/10"></div>
+              <div className="h-[6px] w-64 md:w-96 border-t-2 border-b-2 border-dotted border-white/10"></div>
             </div>
             <div className="flex items-center gap-3 shrink-0">
               <span className="font-ibm-sans font-medium text-[24px] leading-none text-white/60">03</span>
